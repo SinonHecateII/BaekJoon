@@ -11,7 +11,7 @@ print(D_num)
 
 """
 Shorter Code (After Solving it)
-Use Built-in Function
+Use Int Built-in Function
 
 code..
 print(int(input(), 16))
