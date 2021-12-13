@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    int R1, R2, S;
+    scanf_s("%d %d", &R1, &S);
+
+    printf("%d", 2 * S - R1);
+
+    return 0;
+}
