@@ -1,3 +1,5 @@
+#2023-06-24 Bronze3 1267
+
 inputNum = int(input())  
 
 Num = list(input().split())
@@ -13,10 +15,9 @@ for i in range(0, len(Num)):
     
     #민식 요금제 계산
     if(int(Num[i]) / 60  < 1):
-        MinSickPrice = MinSickPrice + 10
+        MinSickPrice = MinSickPrice + 15
     elif(int(Num[i]) / 60 >= 1):
         MinSickPrice = MinSickPrice + 15 + ((int(Num[i]) / 60) // 1 * 15)
-    print(MinSickPrice) 
 
 if(YoungSickPrice > MinSickPrice):
 
