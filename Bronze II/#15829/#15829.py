@@ -5,4 +5,4 @@ sum = 0
 for i in range(0, L):
     #ord() 문자를 유니코드에 맞는 정수로 출력
     sum = sum + ((ord(Hash[i]) - 96) * pow(31, i))        
-print(sum % 1234567891)
+print(sum % 1234567891)  #문제에서의 수식 mod M을 잘 확인할 껏
