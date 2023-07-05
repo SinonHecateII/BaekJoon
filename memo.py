@@ -7,3 +7,6 @@ NumList = list(map(int, input().split()))
 
 #ord() 문자를 유니코드에 맞는 정수로 출력
 print((ord('a') - 96))
+
+import math
+math.ceil()  #반올림
