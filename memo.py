@@ -19,3 +19,9 @@ math.ceil()  #반올림
 NumList = []
 NumList.sort()  #오름차순으로 정렬하고 값 변경
 NumList.sorted()  #오름차순으로 정렬하지만 NumList의 값은 변경 X
+
+#알고리즘
+#계수정렬 Bronze 1 #10989.py 
+
+#재귀함수 Silver 1 #1675
+    #> 재귀함수 사용시 재귀함수 깊이로 인해 Recurission Error 발생
