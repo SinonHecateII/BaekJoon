@@ -20,6 +20,8 @@ NumList = []
 NumList.sort()  #오름차순으로 정렬하고 값 변경
 NumList.sorted()  #오름차순으로 정렬하지만 NumList의 값은 변경 X
 
+NumList.count()  #리스트안 특정 원소 개수 구할 때
+
 #알고리즘
 #계수정렬 Bronze 1 #10989.py 
 
