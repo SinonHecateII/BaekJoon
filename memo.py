@@ -27,8 +27,16 @@ num = 6
 if('6' in str(num)):
     print("num에 6이 있습니다.")
 
+#스택 알고리즘
+from collections import deque  #deque
+dq = deque([1, 2, 3])
+dq.popleft()  #가장 왼쪽값 pop
+dq.append(5)  #오른쪽 끝에 append
+
 #알고리즘
 #계수정렬 Bronze 1 #10989.py 
 
-#재귀함수 Silver 1 #1675
+#재귀함수 Silver 5 #1675
     #> 재귀함수 사용시 재귀함수 깊이로 인해 Recurission Error 발생
+
+#이진 탐색 Silver 4 #1920
