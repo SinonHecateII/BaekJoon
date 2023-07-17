@@ -14,7 +14,11 @@ NumList = list(map(int, input().split()))
 print((ord('a') - 96))
 
 import math
-math.ceil()  #반올림
+math.ceil()  #올림
+round()  #반올림
+
+#dict 정렬
+https://codechacha.com/ko/python-sorting-dict/
 
 NumList = []
 NumList.sort()  #오름차순으로 정렬하고 값 변경
