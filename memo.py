@@ -32,10 +32,15 @@ if('6' in str(num)):
     print("num에 6이 있습니다.")
 
 #스택 알고리즘
-from collections import deque  #deque
+#deque : 양쪽에서 입력 및 삭제
+from collections import deque  #deque 
 dq = deque([1, 2, 3])
 dq.popleft()  #가장 왼쪽값 pop
 dq.append(5)  #오른쪽 끝에 append
+
+#que : 선입 선출.뒤에서 넣고 앞에서 빼고
+
+#stack :위에서 넣고 가장 최근에 넣은거 빼고
 
 #알고리즘
 #계수정렬 Bronze 1 #10989.py 
