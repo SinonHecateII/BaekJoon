@@ -5,6 +5,7 @@ a, b = map(int, input().split())
 import sys
 int(sys.stdin.readline())  #한줄 입력
 a, b, c = map(int, sys.stdin.readline().split())  
+sys.stdin.readline().strip()  #개행문자 제거 '\n' 안나오게
 
 #리스트로 여러개 받기
 NumList = []
