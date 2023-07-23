@@ -14,6 +14,18 @@ def pop(StackList):
 
 def size(StackList):
     print(len(StackList))
+
+def empty(StackList):
+    if(len(StackList) == 0):
+        print(1)
+    else:
+        print(0)
+def top(StackList):
+    if(len(StackList) != 0):
+        print(StackList[len(StackList) - 1])
+    else:
+        print(-1)
+
 N = int(input())
 StackList = []
 
@@ -26,4 +38,7 @@ for i in range(0, N):
         StackList = pop(StackList)
     elif(command[0] == 'size'):
         size(StackList)
-    print(StackList)
+    elif(command[0] == 'empty'):
+        empty(StackList)
+    elif(command[0] == 'top'):
+        top(StackList)
